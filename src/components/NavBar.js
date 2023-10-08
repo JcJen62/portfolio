@@ -11,7 +11,7 @@ import Typography from "@mui/material/Typography";
 const NavBar = () => {
   return (
     <>
-      <AppBar position="static" id="navBar">
+      <AppBar position="static" id="navBar" sx={{backgroundColor: '#212529', display: 'flex'}}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography
