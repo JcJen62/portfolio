@@ -37,15 +37,15 @@ const NavBar = () => {
                 display: { xs: "none", md: "flex", justifyContent: "right" },
               }}
             >
-              <Button sx={{ my: 2, color: "white", display: "block" }}>
+              <Button sx={{ my: 2, color: "white", display: "block", ":hover": { backgroundColor: '#516374'} }}>
                 <Link href="/resume">Resume</Link>
               </Button>
 
-              <Button sx={{ my: 2, color: "white", display: "block" }}>
+              <Button sx={{ my: 2, color: "white", display: "block", ":hover": { backgroundColor: '#516374'} }}>
                 <Link href="/projects">Projects</Link>
               </Button>
 
-              <Button sx={{ my: 2, color: "white", display: "block" }}>
+              <Button sx={{ my: 2, color: "white", display: "block", ":hover": { backgroundColor: '#516374'} }}>
                 <Link href="/contact">Contact me</Link>
               </Button>
             </Box>
